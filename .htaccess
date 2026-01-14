@@ -1,0 +1,14 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect /Blog to /blog (case-sensitive)
+RewriteRule ^Blog/?$ /blog [L,R=301]
+
+# Redirect .html requests to extensionless URL
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Serve .html file when extensionless URL is requested
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)$ $1.html [L]

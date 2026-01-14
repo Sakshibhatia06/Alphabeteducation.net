@@ -1,0 +1,142 @@
+[01-Nov-2025 06:03:54 UTC] PHP Warning:  require(phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/ivylkubd/public_html/contact_process.php on line 6
+[01-Nov-2025 06:03:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/Exception.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ivylkubd/public_html/contact_process.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ivylkubd/public_html/contact_process.php on line 6
+[01-Nov-2025 06:04:41 UTC] PHP Warning:  require(phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/ivylkubd/public_html/contact_process.php on line 6
+[01-Nov-2025 06:04:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/Exception.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ivylkubd/public_html/contact_process.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ivylkubd/public_html/contact_process.php on line 6
+[01-Nov-2025 06:04:46 UTC] PHP Warning:  require(phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/ivylkubd/public_html/contact_process.php on line 6
+[01-Nov-2025 06:04:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/Exception.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ivylkubd/public_html/contact_process.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ivylkubd/public_html/contact_process.php on line 6
+[01-Nov-2025 06:13:42 UTC] PHP Warning:  require(phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/ivylkubd/public_html/contact_process.php on line 5
+[01-Nov-2025 06:13:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/Exception.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/ivylkubd/public_html/contact_process.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ivylkubd/public_html/contact_process.php on line 5
+[01-Nov-2025 06:17:18 UTC] Mail Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server
+[01-Nov-2025 06:22:49 UTC] Mail Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server
+[01-Nov-2025 06:23:38 UTC] Mail Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server
+[01-Nov-2025 06:25:27 UTC] Mail Error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): Peer certificate CN=`*.web-hosting.com' did not match expected CN=`mail.ivyleagueindia.com' SMTP server error: QUIT command failed Detail: ï¿½ï¿½eï¿½yï¿½wï¿½ï¿½}ï¿½ï¿½ï¿½ï¿½221 server189.web-hosting.com closing connection
+
+[01-Nov-2025 06:25:29 UTC] Mail Error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): Peer certificate CN=`*.web-hosting.com' did not match expected CN=`mail.ivyleagueindia.com' SMTP server error: QUIT command failed Detail: ï¿½ï¿½ï¿½ï¿½Ûœ=ï¿½ï¿½+ï¿½gÉš221 server189.web-hosting.com closing connection
+
+[01-Nov-2025 06:27:11 UTC] Mail Error: SMTP Error: Could not authenticate.
+[01-Nov-2025 06:27:18 UTC] Mail Error: SMTP Error: Could not authenticate.
+[01-Nov-2025 06:28:31 UTC] Mail Error: SMTP Error: The following recipients failed: hello@ivyleagueindia.com: No Such User Here
+
+[01-Nov-2025 06:33:55 UTC] Mail Error: SMTP Error: The following recipients failed: hello@ivyleagueindia.com: No Such User Here
+
+[01-Nov-2025 06:35:30 UTC] Mail Error: SMTP Error: The following recipients failed: info@ivyleagueindia.com: No Such User Here
+
+[01-Nov-2025 07:35:40 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[01-Nov-2025 07:37:39 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[01-Nov-2025 07:37:42 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[01-Nov-2025 07:39:01 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[01-Nov-2025 07:39:04 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[01-Nov-2025 07:47:02 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[01-Nov-2025 08:06:42 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 37
+[03-Nov-2025 04:31:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user '	
+ivylkubd_sakshi'@'localhost' (using password: YES) in /home/ivylkubd/public_html/fetch_comments.php:2
+Stack trace:
+#0 /home/ivylkubd/public_html/fetch_comments.php(2): mysqli->__construct()
+#1 {main}
+  thrown in /home/ivylkubd/public_html/fetch_comments.php on line 2
+[03-Nov-2025 04:31:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user '	
+ivylkubd_sakshi'@'localhost' (using password: YES) in /home/ivylkubd/public_html/save_comment.php:2
+Stack trace:
+#0 /home/ivylkubd/public_html/save_comment.php(2): mysqli->__construct()
+#1 {main}
+  thrown in /home/ivylkubd/public_html/save_comment.php on line 2
+[03-Nov-2025 04:32:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? ORDER BY created_at DESC' at line 1 in /home/ivylkubd/public_html/fetch_comments.php:6
+Stack trace:
+#0 /home/ivylkubd/public_html/fetch_comments.php(6): mysqli->prepare()
+#1 /home/ivylkubd/public_html/fetch_comments.php(25): showComments()
+#2 {main}
+  thrown in /home/ivylkubd/public_html/fetch_comments.php on line 6
+[03-Nov-2025 04:34:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? ORDER BY created_at DESC' at line 1 in /home/ivylkubd/public_html/fetch_comments.php:6
+Stack trace:
+#0 /home/ivylkubd/public_html/fetch_comments.php(6): mysqli->prepare()
+#1 /home/ivylkubd/public_html/fetch_comments.php(25): showComments()
+#2 {main}
+  thrown in /home/ivylkubd/public_html/fetch_comments.php on line 6
+[03-Nov-2025 06:14:48 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[03-Nov-2025 06:15:24 UTC] PHP Warning:  Undefined array key "name" in /home/ivylkubd/public_html/contact_process.php on line 12
+[03-Nov-2025 06:15:24 UTC] PHP Warning:  Undefined array key "country" in /home/ivylkubd/public_html/contact_process.php on line 13
+[03-Nov-2025 06:15:24 UTC] PHP Warning:  Undefined array key "phone" in /home/ivylkubd/public_html/contact_process.php on line 15
+[03-Nov-2025 06:15:24 UTC] PHP Warning:  Undefined array key "message" in /home/ivylkubd/public_html/contact_process.php on line 16
+[03-Nov-2025 06:17:29 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[03-Nov-2025 06:19:47 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[03-Nov-2025 06:35:50 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[03-Nov-2025 06:35:50 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[03-Nov-2025 06:35:50 UTC] PHP Warning:  Undefined array key "name" in /home/ivylkubd/public_html/contact_process.php on line 12
+[03-Nov-2025 06:35:50 UTC] PHP Warning:  Undefined array key "country" in /home/ivylkubd/public_html/contact_process.php on line 13
+[03-Nov-2025 06:35:50 UTC] PHP Warning:  Undefined array key "phone" in /home/ivylkubd/public_html/contact_process.php on line 15
+[03-Nov-2025 06:35:50 UTC] PHP Warning:  Undefined array key "message" in /home/ivylkubd/public_html/contact_process.php on line 16
+[03-Nov-2025 08:41:00 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[07-Nov-2025 12:54:30 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[07-Nov-2025 12:54:30 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[07-Nov-2025 12:54:30 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[09-Nov-2025 14:48:37 UTC] PHP Warning:  Undefined array key "post_id" in /home/ivylkubd/public_html/save_comment.php on line 5
+[09-Nov-2025 14:48:37 UTC] PHP Warning:  Undefined array key "name" in /home/ivylkubd/public_html/save_comment.php on line 7
+[09-Nov-2025 14:48:37 UTC] PHP Warning:  Undefined array key "email" in /home/ivylkubd/public_html/save_comment.php on line 8
+[09-Nov-2025 14:48:37 UTC] PHP Warning:  Undefined array key "message" in /home/ivylkubd/public_html/save_comment.php on line 9
+[09-Nov-2025 14:48:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in /home/ivylkubd/public_html/save_comment.php:13
+Stack trace:
+#0 /home/ivylkubd/public_html/save_comment.php(13): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ivylkubd/public_html/save_comment.php on line 13
+[18-Nov-2025 03:54:33 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[18-Nov-2025 03:54:34 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[18-Nov-2025 03:54:34 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[19-Nov-2025 16:31:32 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[25-Nov-2025 22:38:28 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[25-Nov-2025 22:38:28 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[25-Nov-2025 22:38:28 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[28-Nov-2025 10:05:01 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[28-Nov-2025 10:05:01 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[28-Nov-2025 10:05:02 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[05-Dec-2025 06:34:58 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[05-Dec-2025 06:36:03 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[07-Dec-2025 22:29:41 UTC] Mail Error: SMTP Error: data not accepted. SMTP server error: DATA END command failed Detail: Spam content detected in the message body. Reason: JFE040001 https://www.namecheap.com/support/knowledgebase/article.aspx/10664/2216/jellyfish-error-codes/
+ SMTP code: 554 Additional SMTP info: 5.7.1
+[16-Dec-2025 21:38:23 UTC] PHP Warning:  Undefined array key "post_id" in /home/ivylkubd/public_html/save_comment.php on line 5
+[16-Dec-2025 21:38:23 UTC] PHP Warning:  Undefined array key "name" in /home/ivylkubd/public_html/save_comment.php on line 7
+[16-Dec-2025 21:38:23 UTC] PHP Warning:  Undefined array key "email" in /home/ivylkubd/public_html/save_comment.php on line 8
+[16-Dec-2025 21:38:23 UTC] PHP Warning:  Undefined array key "message" in /home/ivylkubd/public_html/save_comment.php on line 9
+[16-Dec-2025 21:38:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in /home/ivylkubd/public_html/save_comment.php:13
+Stack trace:
+#0 /home/ivylkubd/public_html/save_comment.php(13): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ivylkubd/public_html/save_comment.php on line 13
+[18-Dec-2025 12:44:51 UTC] PHP Warning:  Undefined array key "post_id" in /home/ivylkubd/public_html/save_comment.php on line 5
+[18-Dec-2025 12:44:51 UTC] PHP Warning:  Undefined array key "name" in /home/ivylkubd/public_html/save_comment.php on line 7
+[18-Dec-2025 12:44:51 UTC] PHP Warning:  Undefined array key "email" in /home/ivylkubd/public_html/save_comment.php on line 8
+[18-Dec-2025 12:44:51 UTC] PHP Warning:  Undefined array key "message" in /home/ivylkubd/public_html/save_comment.php on line 9
+[18-Dec-2025 12:44:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in /home/ivylkubd/public_html/save_comment.php:13
+Stack trace:
+#0 /home/ivylkubd/public_html/save_comment.php(13): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ivylkubd/public_html/save_comment.php on line 13
+[20-Dec-2025 05:51:52 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[26-Dec-2025 05:57:15 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[26-Dec-2025 05:57:16 UTC] Mail Error: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): Peer certificate CN=`*.web-hosting.com' did not match expected CN=`mail.ivyleagueindia.com' SMTP server error: QUIT command failed Detail: vºCêz’·ë‡~b¨†6úÔ221 server189.web-hosting.com closing connection
+
+[26-Dec-2025 06:00:43 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[26-Dec-2025 06:02:08 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[27-Dec-2025 05:51:22 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[28-Dec-2025 06:56:02 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[29-Dec-2025 12:18:07 UTC] PHP Warning:  Undefined variable $name in /home/ivylkubd/public_html/Newsletter_Submit.php on line 33
+[07-Jan-2026 22:22:52 UTC] PHP Warning:  Undefined array key "post_id" in /home/ivylkubd/public_html/save_comment.php on line 5
+[07-Jan-2026 22:22:52 UTC] PHP Warning:  Undefined array key "name" in /home/ivylkubd/public_html/save_comment.php on line 7
+[07-Jan-2026 22:22:52 UTC] PHP Warning:  Undefined array key "email" in /home/ivylkubd/public_html/save_comment.php on line 8
+[07-Jan-2026 22:22:52 UTC] PHP Warning:  Undefined array key "message" in /home/ivylkubd/public_html/save_comment.php on line 9
+[07-Jan-2026 22:22:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'post_id' cannot be null in /home/ivylkubd/public_html/save_comment.php:13
+Stack trace:
+#0 /home/ivylkubd/public_html/save_comment.php(13): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/ivylkubd/public_html/save_comment.php on line 13
