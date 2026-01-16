@@ -2706,6 +2706,21 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_dubai{
+   background-image:url(../img/study-in-dubai.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_uk{
+   background-image:url(../img/study-in-uk.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_german{
+   background-image:url(../img/study-in-german.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .breadcam_bg11{
   background-image:url(../img/post/Page-online-delivery.png);
   background-color: rgba(0, 0, 0, 0.5);
