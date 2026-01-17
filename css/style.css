@@ -2711,6 +2711,11 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_zealand{
+   background-image:url(../img/study-in-new-zeland.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .breadcam_bg_europe{
    background-image:url(../img/study-in-europe.png);
   background-color: rgba(0, 0, 0, 0.5);
