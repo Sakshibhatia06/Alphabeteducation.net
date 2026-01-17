@@ -2706,6 +2706,21 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_australia{
+   background-image:url(../img/study-in-australia.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_europe{
+   background-image:url(../img/study-in-europe.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_france{
+   background-image:url(../img/study-in-france.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .breadcam_bg_dubai{
    background-image:url(../img/study-in-dubai.png);
   background-color: rgba(0, 0, 0, 0.5);
