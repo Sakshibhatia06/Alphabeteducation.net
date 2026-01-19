@@ -2716,6 +2716,11 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_scholarships{
+   background-image:url(../img/scholarship.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .submenu li a {
   display: flex;
   align-items: center;
