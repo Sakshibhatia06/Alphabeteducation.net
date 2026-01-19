@@ -2716,6 +2716,19 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.submenu li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flag {
+  width: 22px;
+  height: 14px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
 .breadcam_bg_europe{
    background-image:url(../img/study-in-europe.png);
   background-color: rgba(0, 0, 0, 0.5);
