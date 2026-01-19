@@ -441,7 +441,7 @@ to us to get the ball rolling!
 
 
 
-    <footer class="footer">
+      <footer class="footer">
         <div class="footer_top">
             <div class="container">
                 <div class="newsLetter_wrap">
@@ -451,40 +451,34 @@ to us to get the ball rolling!
                                 <h3 class="footer_title">
                                     Stay Updated
                                 </h3>
-                                <form class="newsletter_form form-contact contact_form" method="post" id="contactForm"
-                                    action="Newsletter_Submit.php" novalidate>
-                                    <input class="form-control valid" name="email" type="email"
-                                        placeholder="Enter Your Email" required>
+                                <form class="newsletter_form form-contact contact_form" method="post" id="contactForm" action="Newsletter_Submit.php" novalidate>
+                                    <input class="form-control valid" name="email" type="email" placeholder="Enter Your Email" required>
                                     <button type="submit" class="button button-contactForm">Subscribe Now </button>
                                 </form>
                                 <div id="success" style="text-align:left;display:none; color:green; margin-top:10px">
-                                    Thank you for signing up for our newsletter.</div>
-                                <div id="error" style="display:none; color:red; margin-top:10px">
-                                    Message not Sent - Please Try Again Later!
-                                </div>
+   Thank you for signing up for our newsletter.</div>
+<div id="error" style="display:none; color:red; margin-top:10px">
+    Message not Sent - Please Try Again Later!
+</div>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-5">
                             <div class="footer_widget">
                                 <h3 class="footer_title">
-                                    Follow Us
+                                    Follow Us 
                                 </h3>
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/profile.php?id=100067987980611"
-                                                target="_blank">
+                                            <a href="https://www.facebook.com/profile.php?id=100067987980611" target="_blank">
                                                 <i class="ti-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://x.com/Ivyleague_india" target="_blank">
-                                                <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" fill="currentColor" class="bi bi-twitter-x"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-                                                </svg>
+                                               <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg>
                                             </a>
                                         </li>
                                         <li>
@@ -514,6 +508,7 @@ to us to get the ball rolling!
                                 <li><a href="who-we-are.html">Who we are</a></li>
                                 <li><a href="what-we-do.html">What we do</a></li>
                                 <li><a href="how-it-works.html">How it Works</a></li>
+                                <li><a href="career.html">Careers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -565,8 +560,11 @@ to us to get the ball rolling!
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
                         <p style="color:white; text-align:center">
-                            Copyright &copy; All rights reserved. </p>
-                        </p>
+  Copyright &copy; <span id="year"></span> All rights reserved.
+</p>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
                     </div>
                 </div>
             </div>
