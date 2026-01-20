@@ -2721,6 +2721,26 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_japan{
+  background-image:url(../img/study-in-japan.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_hong_kong{
+   background-image:url(../img/study-in-hong-kong.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_Ireland{
+  background-image:url(../img/study-in-ireland.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_Singapore{
+  background-image:url(../img/study_in_singapore.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .submenu li a {
   display: flex;
   align-items: center;
