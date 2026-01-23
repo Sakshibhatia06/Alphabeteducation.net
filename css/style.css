@@ -2741,6 +2741,22 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_malta{
+  background-image:url(../img/study-in-malta.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_malaysia{
+  background-image:url(../img/study-in-malaysia.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_china{
+  background-image:url(../img/study_in_china.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
 .submenu li a {
   display: flex;
   align-items: center;
@@ -7775,6 +7791,38 @@ h6 {
         .floating-buttons a:hover{
             transform:scale(1.1);
         }
+        /* =========================================
+   FORCE SCROLL ON TOP DESTINATIONS SUBMENU
+   ========================================= */
+
+/* Base submenu override */
+#navigation > li > ul.submenu {
+  position: absolute !important;
+  top: 100% !important;
+  display: none;
+  max-height: none;
+}
+
+/* On hover – FIX HEIGHT + ENABLE SCROLL */
+#navigation > li:hover > ul.submenu {
+  display: block !important;
+  height: 75vh !important;       /* 🔥 FIXED HEIGHT */
+  max-height: 75vh !important;
+  overflow-y: auto !important;   /* 🔥 SCROLLER */
+  overflow-x: hidden;
+  z-index: 9999;
+}
+
+/* Scrollbar visible */
+#navigation > li:hover > ul.submenu::-webkit-scrollbar {
+  width: 6px;
+}
+
+#navigation > li:hover > ul.submenu::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
 
   @media (max-width: 768px) {
     .testimonial-grid{
