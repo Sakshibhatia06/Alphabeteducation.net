@@ -2686,6 +2686,11 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg_online{
+  background-image:url(../img/study-entirely-online.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .breadcam_bg9{
    background-image:url(../img/Website-what-we-do.png);
   background-color: rgba(0, 0, 0, 0.5);
