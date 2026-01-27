@@ -686,10 +686,10 @@ svg{
 
 /* line 2, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_section_title.scss */
 .section_title h3 {
-  text-transform: uppercase;
-  font-size: 50px;
+  font-size: 43px;
   font-weight: 600;
-  color:black;
+  color:#7b080b;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
