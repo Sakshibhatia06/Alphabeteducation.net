@@ -2641,8 +2641,23 @@ svg{
 .breadcam_bg {
   background-image: url(../img/banner/bradcam.png);
 }
+.breadcam_bg_korea{
+   background-image:url(../img/study-in-south-korea.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 .breadcam_bg1{
   background-image:url(../img/How-it-works.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_visa{
+  background-image:url(../img/students-visa.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg_juniors{
+  background-image:url(../img/headstart-program-for-juniors.png);
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
